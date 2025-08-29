@@ -8,4 +8,5 @@ for (let i = 0; i < favFood.length; i++){
     console.log(favFood[i])
 }
 
-favFood.map((food) => console.log(`i like ${food}`))
+const iLikedFoods = favFood.map((food) => `i like ${food}`)
+console.log(iLikedFoods)
