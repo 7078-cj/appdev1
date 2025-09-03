@@ -1,0 +1,22 @@
+<body>
+    <button>change to white</button>
+    <p id="paragraph"></p>
+</body>
+
+<script>
+    const body =  document.querySelector("body")
+    const button =  document.querySelector("button")
+
+    button.addEventListener('click', function() {
+        body.style.backgroundColor = "white";
+    });
+
+    let color = prompt("What is your favorite color?", "Blue")
+    body.style.backgroundColor = color;
+
+    setTimeout(function() {
+        document.getElementById("paragraph").textContent = "This message appears after 2 seconds";
+    }, 2000);
+    
+    
+</script>
