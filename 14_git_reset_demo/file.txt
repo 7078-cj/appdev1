@@ -1,1 +1,4 @@
 Line 1
+
+Realization:
+    after resetting to the add line 1 commit when using --hard the changes you made will disappear with the changes in the previous commits
