@@ -1,0 +1,2 @@
+Realization:
+    macro commit bulk uploads the changes and additions while microcommits commits small changes to for easier tracking and debugging
