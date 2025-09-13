@@ -1,41 +1,35 @@
+import { useState } from 'react'
 import './App.css'
 
 
 
-const user = {
-  name: 'Hedy Lamarr',
-  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-  imageSize: 90,
-};
 
-function Profile() {
+
+function AdminPanel(){
   return (
-    <>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
-    </>
-  );
+    <h1>Admin Panel</h1>
+  )
+}
+
+function LoginForm(){
+  return (
+    <h1>Login Form</h1>
+  )
 }
 
 
-
-
-
-
 function App() {
- 
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   return (
     <>
-      <Profile/>
+      <button onClick={()=>setIsLoggedIn(!isLoggedIn)}>click</button>
+      {isLoggedIn ? (
+        <AdminPanel />
+      ) : (
+        <LoginForm />
+      )}
+
     </>
   )
 }
