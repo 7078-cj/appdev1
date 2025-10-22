@@ -6,6 +6,7 @@ import Gallery from './components/Gallery';
 import ToDoList from './components/ToDoList';
 import Profile from './components/Profile';
 import PackingList from './components/PackingList';
+import List from './components/List';
 
 // function Profile() {
 //   return (
@@ -41,6 +42,9 @@ function App() {
 
       {/* Done with how to conditionally render components */}
       <PackingList/>
+
+      {/* Done with how to render multiple components at a time */}
+      <List/>
 
     </>
   )
