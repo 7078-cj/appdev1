@@ -4,15 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Gallery from './components/Gallery';
 import ToDoList from './components/ToDoList';
+import Profile from './components/Profile';
 
-function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
+// function Profile() {
+//   return (
+//     <img
+//       src="https://i.imgur.com/MK3eW3As.jpg"
+//       alt="Katherine Johnson"
+//     />
+//   );
+// }
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
       {/* Done with how to add markup to JavaScript with JSX */}
       {/* Done with how to use curly braces with JSX to access JavaScript functionality from your components */}
       <ToDoList/>
+
+      {/* Done with how to configure components with props */}
+      <Profile/>
 
     </>
   )
