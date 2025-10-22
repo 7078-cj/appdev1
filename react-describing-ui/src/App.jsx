@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+      {/* Done with how to write your first React component */}
        <section>
         <h1>Amazing scientists</h1>
         <Profile />
@@ -26,7 +27,11 @@ function App() {
         <Profile />
       </section>
 
+      {/* Done with when and how to create multi-component files */}
       <Gallery/>
+
+      {/* Done with how to add markup to JavaScript with JSX */}
+      {/* Done with how to use curly braces with JSX to access JavaScript functionality from your components */}
       <ToDoList/>
 
     </>
