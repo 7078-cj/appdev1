@@ -5,6 +5,7 @@ import './App.css'
 import Gallery from './components/Gallery';
 import ToDoList from './components/ToDoList';
 import Profile from './components/Profile';
+import PackingList from './components/PackingList';
 
 // function Profile() {
 //   return (
@@ -37,6 +38,9 @@ function App() {
 
       {/* Done with how to configure components with props */}
       <Profile/>
+
+      {/* Done with how to conditionally render components */}
+      <PackingList/>
 
     </>
   )
