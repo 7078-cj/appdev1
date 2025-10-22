@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Gallery from './components/Gallery';
+import ToDoList from './components/ToDoList';
 
 function Profile() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </section>
 
       <Gallery/>
+      <ToDoList/>
 
     </>
   )
