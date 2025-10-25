@@ -7,6 +7,8 @@ import ToDoList from './components/ToDoList';
 import Profile from './components/Profile';
 import PackingList from './components/PackingList';
 import List from './components/List';
+import Impure from './components/Impure';
+import Pure from './components/Pure';
 
 // function Profile() {
 //   return (
@@ -45,6 +47,13 @@ function App() {
 
       {/* Done with how to render multiple components at a time */}
       <List/>
+
+      {/* Done with how to avoid confusing bugs by keeping components pure */}
+
+      <h1>Impure Component</h1>
+      <Impure/>
+      <h1>Pure Component</h1>
+      <Pure/>
 
     </>
   )
