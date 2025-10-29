@@ -9,6 +9,10 @@ import PackingList from './components/PackingList';
 import List from './components/List';
 import Impure from './components/Impure';
 import Pure from './components/Pure';
+import RootComponent from './components/RootComponent';
+
+
+
 
 // function Profile() {
 //   return (
@@ -21,6 +25,7 @@ import Pure from './components/Pure';
 
 
 function App() {
+
 
   return (
     <>
@@ -54,6 +59,11 @@ function App() {
       <Impure/>
       <h1>Pure Component</h1>
       <Pure/>
+
+      {/* Done with why understanding your UI as trees is useful */}
+
+      <RootComponent/>
+      
 
     </>
   )
